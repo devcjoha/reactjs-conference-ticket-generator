@@ -81,5 +81,5 @@ Users should be able to:
 ## Author
 
 - Website - [Carla Johanna](https://github.com/devcjoha)
-- Frontend Mentor - [@devcjoha](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@devcjoha](https://www.frontendmentor.io/profile/devcjoha)
 - X - [@CarlitaJohanna](https://www.x.com/carlitajohana)
