@@ -5,14 +5,21 @@ import TicketList from "./components/TicketList";
 import { Route, Routes } from "react-router-dom";
 import TicketComponent from "./components/TicketComponent";
 
+
 function App() {
   const [tickets, setTickets] = useState([]);
-  console.log("Ticket generado STATE APP", tickets);
   const addTicket = (newTicket) => {
     setTickets((previewTickets) => [newTicket, ...previewTickets]);
   };
   return (
-    <>
+    <main
+      className=" 
+      h-screen w-full 
+        bg-no-repeat bg-cover bg-center 
+        lg:bg-[url('./assets/images/pattern-lines.svg'),url('./assets/images/background-desktop.png')]
+        sm:bg-[url('./assets/images/pattern-lines.svg'),url('./assets/images/background-tablet.png')]
+        bg-[url('./assets/images/pattern-lines.svg'),url('./assets/images/background-mobile.png')]"
+    >
       <Routes>
         <Route
           path="/"
@@ -26,15 +33,17 @@ function App() {
           path="/ticket"
           element={
             <TicketComponent
+              id={tickets[0]?.id}
               fullname={tickets[0]?.fullname}
               username={tickets[0]?.username}
               email={tickets[0]?.email}
               avatarUrl={tickets[0]?.avatarUrl}
+              date={tickets[0]?.date}
             />
           }
         ></Route>
       </Routes>
-    </>
+    </main>
   );
 }
 
