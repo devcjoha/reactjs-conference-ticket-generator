@@ -1,5 +1,5 @@
 import ImageUploading from "react-images-uploading";
-import iconUpload from "../assets/images/icon-upload.svg";
+import iconUpload from "../assets/icon-upload.svg";
 
 const MAX_SIZE_IMAGE = 2097152; //Bytes
 const UploadImage = ({ currentAvatar, onImageUpdate, errorState }) => {

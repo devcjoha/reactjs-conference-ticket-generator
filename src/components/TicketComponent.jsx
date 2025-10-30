@@ -1,10 +1,10 @@
-import TicketForm from "./TicketForm";
-import logoFull from "../assets/images/logo-full.svg";
-import ticketImage from "../assets/images/pattern-ticket.svg";
-import githubIcon from "../assets/images/icon-github.svg";
+// import TicketForm from "./TicketForm";
+import logoFull from "../assets/logo-full.svg";
+import ticketImage from "../assets/pattern-ticket.svg";
+import githubIcon from "../assets/icon-github.svg";
 import { Link } from "react-router-dom";
-import patternBottonDesktop from "../assets/images/pattern-squiggly-line-bottom-desktop.svg";
-import patternTopRight from "../assets/images/pattern-squiggly-line-top.svg";
+import patternBottonDesktop from "../assets/pattern-squiggly-line-bottom-desktop.svg";
+import patternTopRight from "../assets/pattern-squiggly-line-top.svg";
 
 const TicketComponent = ({
   fullname,

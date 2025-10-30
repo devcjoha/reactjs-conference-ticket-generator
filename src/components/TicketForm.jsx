@@ -2,9 +2,9 @@ import React from "react";
 import UploadImage from "./UploadImage";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import patternBottonDesktop from "../assets/images/pattern-squiggly-line-bottom-desktop.svg";
-import patternTopRight from "../assets/images/pattern-squiggly-line-top.svg";
-import logoFull from "../assets/images/logo-full.svg";
+import patternBottonDesktop from "../assets/pattern-squiggly-line-bottom-desktop.svg";
+import patternTopRight from "../assets/pattern-squiggly-line-top.svg";
+import logoFull from "../assets/logo-full.svg";
 
 function TicketForm({ onAddTicket }) {
   const navigate = useNavigate();

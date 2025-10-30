@@ -16,9 +16,9 @@ function App() {
       className=" 
       h-screen w-full 
         bg-no-repeat bg-cover bg-center 
-        lg:bg-[url('./assets/images/pattern-lines.svg'),url('./assets/images/background-desktop.png')]
-        sm:bg-[url('./assets/images/pattern-lines.svg'),url('./assets/images/background-tablet.png')]
-        bg-[url('./assets/images/pattern-lines.svg'),url('./assets/images/background-mobile.png')]"
+        lg:bg-[url('./assets/pattern-lines.svg'),url('./assets/background-desktop.png')]
+        sm:bg-[url('./assets/pattern-lines.svg'),url('./assets/background-tablet.png')]
+        bg-[url('./assets/pattern-lines.svg'),url('./assets/background-mobile.png')]"
     >
       <Routes>
         <Route
