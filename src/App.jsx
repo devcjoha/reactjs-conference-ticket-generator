@@ -1,9 +1,10 @@
 import React from "react";
 import { useState } from "react";
 import TicketForm from "./components/TicketForm";
-import TicketList from "./components/TicketList";
+// import TicketList from "./components/TicketList";
 import { Route, Routes } from "react-router-dom";
 import TicketComponent from "./components/TicketComponent";
+
 
 
 function App() {
@@ -25,10 +26,10 @@ function App() {
           path="/"
           element={<TicketForm onAddTicket={addTicket} />}
         ></Route>
-        <Route
+        {/* <Route
           path="/alltickets"
           element={<TicketList tickets={tickets} />}
-        ></Route>
+        ></Route> */}
         <Route
           path="/ticket"
           element={
