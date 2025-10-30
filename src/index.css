@@ -1,14 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
-
-@import "tailwindcss";
-/* @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'; */
-
-/* 
-@source "../node_modules/flowbite"; */
-/* @plugin "flowbite/plugin"; */
-
-@theme {
+@import 'tailwindcss';
+@tailwind utilities;
+@themes {
 
  --border-input-color:hsl(255,30,31) ;
  --Font-place-holder-color: hsl(250,8,47);
