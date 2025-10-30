@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     react(),
-  ]
-    
+  ],
+    base: '/reactjs-conference-ticket-generator/'
 })
