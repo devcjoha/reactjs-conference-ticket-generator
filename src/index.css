@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 @tailwind utilities;
-@themes {
+:root {
 
  --border-input-color:hsl(255,30,31) ;
  --Font-place-holder-color: hsl(250,8,47);
