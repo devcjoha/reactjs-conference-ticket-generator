@@ -16,9 +16,9 @@ function App() {
     <main
       className=" 
       h-screen w-full bg-no-repeat bg-cover bg-center 
-        lg:bg-[url('./assets/pattern-lines.svg'),url('./assets/background-desktop.png')]
-        sm:bg-[url('./assets/pattern-lines.svg'),url('./assets/background-tablet.png')]
-        bg-[url('./assets/pattern-lines.svg'),url('./assets/background-mobile.png')]"
+        lg:bg-[url('/pattern-lines.svg'),url('/background-desktop.png')]
+        sm:bg-[url('/pattern-lines.svg'),url('/background-tablet.png')]
+        bg-[url('/pattern-lines.svg'),url('/background-mobile.png')]"
     >
       <Routes>
         <Route
