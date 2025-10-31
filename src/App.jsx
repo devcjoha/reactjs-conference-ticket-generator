@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import TicketForm from "./components/TicketForm";
-// import TicketList from "./components/TicketList";
+import TicketList from "./components/TicketList";
 import { Route, Routes } from "react-router-dom";
 import TicketComponent from "./components/TicketComponent";
 
@@ -15,8 +15,7 @@ function App() {
   return (
     <main
       className=" 
-      h-screen w-full 
-        bg-no-repeat bg-cover bg-center 
+      h-screen w-full bg-no-repeat bg-cover bg-center 
         lg:bg-[url('./assets/pattern-lines.svg'),url('./assets/background-desktop.png')]
         sm:bg-[url('./assets/pattern-lines.svg'),url('./assets/background-tablet.png')]
         bg-[url('./assets/pattern-lines.svg'),url('./assets/background-mobile.png')]"
@@ -26,10 +25,10 @@ function App() {
           path="/"
           element={<TicketForm onAddTicket={addTicket} />}
         ></Route>
-        {/* <Route
+        <Route
           path="/alltickets"
           element={<TicketList tickets={tickets} />}
-        ></Route> */}
+        ></Route>
         <Route
           path="/ticket"
           element={
