@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-     base: '/reactjs-conference-ticket-generator',
+     base: process.env.VITE_BASE_PATH || '/reactjs-conference-ticket-generator',
 })
