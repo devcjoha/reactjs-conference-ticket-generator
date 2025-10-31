@@ -25,10 +25,10 @@ function App() {
           path="/"
           element={<TicketForm onAddTicket={addTicket} />}
         ></Route>
-        <Route
+        {/* <Route
           path="/alltickets"
           element={<TicketList tickets={tickets} />}
-        ></Route>
+        ></Route> */}
         <Route
           path="/ticket"
           element={
